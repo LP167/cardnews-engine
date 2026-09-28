@@ -1,0 +1,25 @@
+# assets and output are never published from this repo
+assets/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+cards/
+cards_*/
+crops/
+out/
+plans/
+item.json
+cards.json
+*.md.bak
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# env / os
+.env
+.env.*
+.DS_Store
